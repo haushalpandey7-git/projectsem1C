@@ -71,7 +71,7 @@ void savingsAccount(){
             printf("Withdrawal successful!\n");
             printf("New balance: NPR%f\n", balance);
         }else{
-            printf("Withdrawal failed! Minimum balance of ₹1000 must be maintained.\n");
+            printf("Withdrawal failed! Minimum balance of NPR1000 must be maintained.\n");
             printf("Current balance: NPR%f\n", balance);
         }
         
@@ -134,7 +134,7 @@ void currentAccount(){
             printf("Withdrawal successful!\n");
             printf("New balance: NPR%f\n", balance);
         }else{
-            printf("Withdrawal failed! Minimum balance of ₹5000 must be maintained.\n");
+            printf("Withdrawal failed! Minimum balance of NPR5000 must be maintained.\n");
             printf("Current balance: NPR%f\n", balance);
         }
         
@@ -263,6 +263,3 @@ int main(){
     printf("Thank you for using our ATM!\n");
     return 0;
 }
-bishalchhetri2730@gmail.com
-9866
-9840
